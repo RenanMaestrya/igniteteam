@@ -8,7 +8,7 @@ import {
 
 import theme from './src/theme';
 
-import { Groups } from '@screens/groups';
+import { NewGroup } from '@screens/NewGroup';
 import { Loading } from '@components/Loadings';
 
 
@@ -23,7 +23,7 @@ export default function App() {
         backgroundColor='transparent'
         translucent
       />
-      { fontsLoaded ? <Groups /> : <Loading/>}
+      { fontsLoaded ? <NewGroup /> : <Loading/>}
     </ThemeProvider>
   );
 }
