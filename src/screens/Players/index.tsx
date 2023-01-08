@@ -83,7 +83,7 @@ export function Players() {
 
         <Highlight
           title={group}
-          subtitle="adicione a galera e separe os times"
+          subtitle="adicione a galera e separe os times."
         />
 
         <Form>
